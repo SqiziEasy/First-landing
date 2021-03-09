@@ -1,38 +1,114 @@
-.telo {
-padding-top: 150px;
+/* changes */
+
+.email-form {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 19px 39px;
+
+color: black;
+background: #EFEFEF;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 39px;
+font-size: 15px;
+line-height: 27px;
 }
 
-.nadtelo {
-padding-top: 10px;
-margin-left: 25px;
-margin-right: 25px;
+.subcribe-btn {
+padding: 19px 38px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+color: #EF2779;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.2px;
+}
+
+.tffbtn {
+color: #38A3F1;
+background: #FFFFFF;
+border-radius: 35px !important;
+padding: 16px 58px;
+text-decoration: none;
+}
+
+.jtext {
+margin: 60px 0px;
+}
+
+.txt-al-left{
+text-align: left !important;
+}
+
+.features {
+padding-bottom: 15px;
+font-size: 46px;
+line-height: 57px;
+margin: 0px 10px;
+}
+
+.features-0 {
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+}
+
+.mt-80px {
+margin-top: 80px;
+}
+
+.featurelogo {
+font-size: 22px;
+line-height: 33px;
+margin: 0px 10px;
+}
+
+.featuredescription {
+font-size: 18px;
+line-height: 27px;
+margin: 0px 10px;
+}
+
+.lightninglogo {
+margin: 0px 10px;
+font-size: 46px;
+line-height: 57px;
+}
+
+.pb-70px {
+padding-bottom: 70px;
+}
+
+.pb-35px {
+padding-bottom: 35px;
+}
+
+.telo {
+padding-top: 114px;
+}
+
+.header {
+padding-top: 50px;
+margin-left: 40px;
+margin-right: 40px;
 }
 
 .text-1 {
+font-weight: 900;
 font-size: 55px;
-text-align: left;
-margin-left: 1150px;
-margin-top: 50px;
-line-height: 50px;
+line-height: 65px;
+padding: 0px 10px;
 }
 
 .text-2 {
-margin-top: 30px;
-font-size: 15px;
-text-align: left;
-margin-left: 1150px;
-}
-
-.text-3 {
-text-align: left;
-margin-left: 60%;
-margin-right: 29%;
-margin-top: 60px;
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 30px;
-background-color: white;
-border-radius: 32px;
+font-size: 16px;
+line-height: 20px;
+padding: 0px 10px;
 }
 
 .href-1 {
@@ -40,14 +116,15 @@ text-decoration: none;
 }
 
 .main-text1 {
-padding-top: 50px;
+padding-left: 80px;
+padding-top: 64px;
 }
 
 .header-1 {
-padding-bottom: 13rem;
+padding-bottom: 281px;
 }
 
-.komp1 {
+.section1 {
 background: linear-gradient(45deg, #EF2779, #7834BE); 
 }
 
@@ -61,10 +138,11 @@ border-color: white;
 color: rgb(225, 0, 255);
 }
 
-.komp2 {
+.section2 {
 text-align: center;
-padding-top: 150px;
+padding-top: 80px;
 background-color: white;
+padding-bottom: 80px;
 }
 
 .products {
@@ -72,9 +150,9 @@ padding-bottom: 100px;
 }
 
 .products-1 {
+text-align: center;
 display: inline-block;
 width: 30%;
-padding-top: 100px;
 }
 
 .nameproduct-1 {
@@ -90,17 +168,17 @@ margin-top: 0.7rem;
 padding-top: 20px;
 }
 
-.komp3 {
+.section3 {
 text-align: center;
-padding-top: 150px;
+padding-top: 100px;
 }
 
-.nadpis-1 {
+.featureheader {
 margin-top: 45px;
-margin-bottom: 150px;
+margin-bottom: 70px;
 }
 
-.knopka-1 {
+.btn-1 {
 text-align: center;
 padding-top: 25px;
 padding-bottom: 25px;
@@ -108,14 +186,14 @@ background-color: #38A3F1;
 border-radius: 32px;
 margin-right: 40%;
 margin-left: 40%;
-margin-bottom: 250px;
 }
 
 .image {
-margin-bottom: 150px;
+margin-top: 100px;
+margin-bottom: 140px;
 }
 
-.komp4 {
+.section4 {
 padding-top: 100px;
 padding-bottom: 150px;
 text-align: center;
@@ -123,11 +201,7 @@ color: white;
 background: linear-gradient(45deg, #EF2779, #7834BE);
 }
 
-.text-4 {
-margin-top: 70px;
-}
-
-.knopka-2 {
+.btn-2 {
 text-align: left;
 color: black;
 margin-right: 35%;
@@ -139,36 +213,32 @@ border-radius: 32px;
 margin-bottom: 15px;
 }
 
-.forknopka-2 {
-margin-left: 30px;
-}
-
 .form {
 background-color: rgba(255, 255, 255, 0);
-padding-right: 300px;
+padding-right: 10vh;
 border: none;
 }
 
 .form-2 {
 background-color: rgba(255, 255, 255, 0);
-padding-right: 300px;
+padding-right: 400px;
 border: none;
 padding-bottom: 100px;
 }
 
-.knopka-3 {
+.btn-3 {
+padding: 17px 35px;
+background: #F4F4F4;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 39px;
+margin-right: 40%;
+margin-left: 40%;
+margin-bottom: 12px;
 text-align: left;
-color: rgb(255, 255, 255);
-margin-right: 35%;
-margin-left: 35%;
-padding-top: 7px;
-padding-bottom: 7px;
-background-color: white;
-border-radius: 32px;
-margin-bottom: 15px;
 }
 
-.komp5 {
+.section5 {
 text-align: center;
 margin-top: 150px;
 }
@@ -181,38 +251,38 @@ margin-left: 20px;
 padding-bottom: 30px;
 }
 
-.top-vniz-100px {
+.mt-100px {
 margin-top: 100px;
 }
 
-.bottom-vniz-100px {
+.mb-100px {
 margin-bottom: 100px;
 }
 
-.bottom-vniz-50px {
+.mb-50px {
 margin-bottom: 50px;
 }
 
-.bottom-vniz-35px {
+.mb-35px {
 margin-bottom: 35px;
 }
 
-.padding-vniz-35px {
+.pb-35px {
 padding-bottom: 35px;
 }
 
-.komp6 {
+.section6 {
 text-align: center;
 padding-top: 100px;
 }
 
-.komp7 {
+.section7 {
 text-align: center;
 margin-top: 250px;
 margin-bottom: 100px;
 }
 
-.kartinka-partner {
+.partnerimage {
 margin-top: 30px;
 margin-bottom: 30px;
 }
@@ -225,14 +295,12 @@ text-align: left;
 
 .pricing {
 border-radius: 15px;
-/*
-*/
 margin: 20px 40px 20px 40px;
 padding: 60px 40px 60px 40px;
 text-align: left;
 }
 
-.knopka-4 {
+.btn-4 {
 font-size: 22px;
 text-align: center;
 padding-top: 15px;
@@ -245,7 +313,7 @@ border-radius: 32px;
 background: linear-gradient(45deg, #EF2779, #7834BE);
 }
 
-.knopka-5 {
+.btn-5 {
 font-size: 22px;
 text-align: center;
 padding-top: 15px;
@@ -284,8 +352,7 @@ font-size: 50px;
 margin-top: 60px;
 }
 
-.komp8 {
-border: solid 5px black;
+.section8 {
 padding-top: 200px;
 color: white;
 background-color: #252B42;
@@ -303,7 +370,7 @@ border-top: 150px solid #ffffff;
 border-bottom: 45px solid #ffffff;
 }
 
-.knopka-6-6 {
+.btn-6 {
 text-align: left;
 color: rgb(255, 255, 255);
 padding-top: 7px;
@@ -313,17 +380,7 @@ border-radius: 32px;
 margin-bottom: 15px;
 }
 
-.knopka-6 {
-text-align: left;
-color: black;
-padding-top: 15px;
-padding-bottom: 1px;
-background-color: #E8E8E8;
-border-radius: 32px;
-margin-bottom: 15px;
-}
-
-.knopka-7 {
+.btn-7 {
 text-align: left;
 color: black;
 padding-top: 15px;
@@ -332,7 +389,7 @@ border-radius: 5px;
 margin-bottom:15px;
 }
 
-.knopka-8 {
+.btn-8 {
 font-size: 6px;
 padding-left: 55px;
 padding-right: 15px;
@@ -365,7 +422,7 @@ font-size: 20px;
 line-height: 60px;
 }
 
-.komp9 {
+.section9 {
 padding-top: 150px;
 padding-bottom: 150px;
 text-align: left;
