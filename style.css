@@ -1,3 +1,85 @@
+/* Header */
+
+.menu-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.menu-link:hover {
+    color: #ed277a;
+    transition: color .3s;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background: linear-gradient(45deg, #EF2779, #7834BE);
+}
+
+.p-header {
+    padding-top: 156px;
+}
+
+
+/* Helpers */
+
+.btn {
+    padding: 19px 39px !important;
+    border-radius: 39px !important;
+}
+
+.btn-light {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.2px !important;
+    color: #EF2779 !important;
+}
+
+.form-control {
+    padding: 19px 39px !important;
+    border-radius: 39px !important;
+    border: none !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.1px !important;
+    color: #18171D !important;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.mr-11 {
+    margin-right: 11px;
+}
+
+.mr-21 {
+    margin-right: 21px;
+}
+
+.h-156 {
+    height: 156px;
+}
+
+
+
+
+
 /* changes */
 
 .email-form {
